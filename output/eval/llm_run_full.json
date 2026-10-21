@@ -1,0 +1,33 @@
+{
+  "model": "deepseek-flash",
+  "n_rows": 1200,
+  "few_shot_ids": [
+    1966,
+    394,
+    5888,
+    80,
+    3951,
+    3953,
+    3251,
+    1945
+  ],
+  "usage": {
+    "zero_shot": {
+      "n": 1200,
+      "unparsed": 0,
+      "prompt_tokens": 456610,
+      "cache_hit_tokens": 199424,
+      "completion_tokens": 1200
+    },
+    "few_shot": {
+      "n": 1200,
+      "unparsed": 0,
+      "prompt_tokens": 1175410,
+      "cache_hit_tokens": 906240,
+      "completion_tokens": 1200
+    }
+  },
+  "balance_before_cny": 38.65,
+  "balance_after_cny": 38.43,
+  "spent_this_run_cny": 0.22
+}
